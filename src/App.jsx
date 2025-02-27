@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Dog } from "./component/Dog";
 function App() {
   return (
     <>
@@ -6,6 +7,7 @@ function App() {
       <Link to={"/test"}>To test page</Link>
       <br />
       <a href="/test">Anchor to test page</a>
+      <Dog />
     </>
   );
 }
