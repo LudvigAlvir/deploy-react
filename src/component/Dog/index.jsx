@@ -1,3 +1,5 @@
+import dog from "./cool_dog.jpg";
+
 export function Dog() {
   return (
     <div>
@@ -7,9 +9,9 @@ export function Dog() {
         alt=""
       />
       <p>image from component image</p>
-      <img src="./cool_dog.jpg" alt="" />
+      <img src={dog} alt="" />
       <p>image from public</p>
-      <img src="/public/cool_dog.jpg" alt="" />
+      <img src="/cool_dog.jpg" alt="" />
     </div>
   );
 }
